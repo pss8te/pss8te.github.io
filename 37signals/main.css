@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* PARTH'S CODE STARTS HERE */
+body {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Sans serif;
+	min-width: 900px;
+}
+/* NAVIGATION BAR */  
+
+nav {
+	font-size: 12px;
+	height: 60px;
+}
+
+.today {
+float: left;
+color: #999999;
+margin-top: 31px;
+margin-left: 58px;
+}
+
+.links {
+float: right;
+margin-top: 28px;
+margin-right: 38.5px;
+}
+
+ul {
+list-style: none;
+}
+
+li {
+display: inline-block;
+margin-right: 20px;
+}
+
+a{
+text-decoration: none;
+color:#33669C;
+}
+
+a:hover {
+text-decoration: none;
+color: #50A6C2;
+}
+
+a#signin {
+text-decoration: none;
+color: #51AFE0;
+}
+
+/* HEADER */  
+
+.heading {
+text-align: center;
+margin-top: 17px;
+}
+
+h1 {
+font-size: 58px;
+font-weight: 500;
+letter-spacing: -2px;
+font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+line-height: 1.0em;
+color: #232323;
+margin-top: 19.5px;
+
+}
+
+h5 {
+font-size: 20px;
+font-weight: 500;
+font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+margin-top: 18px;
+}
+
+/* 3 Link boxes */  
+
+.promos {
+margin: 0 auto;
+text-align: center;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.basecamp, .highrise, .campfire {
+display: inline-block;
+width: 180px;
+height: 247px;
+border-radius: 5px;
+border: 1px solid #E8E8E8;
+background: linear-gradient(#FFFFFF , #EFEFEF);
+margin: 0px 17px;
+margin-top: 32px;
+text-decoration: none;
+}
+
+.promologo {
+margin-top: 18px;
+}
+
+.one {
+display: inline-block;
+text-decoration: underline;
+color: #336699;
+font-size: 21px;
+font-weight: bold;
+margin-top: 10px;
+margin-left: 8px;
+
+}
+
+span {
+display: inline-block;
+font-size: 11px;
+vertical-align: super;
+font-weight: normal;
+color: #999;
+text-decoration: none;
+}
+
+.two {
+font-size: 14px;
+color: #cc0000;
+font-weight: bold;
+margin-top: 15px;
+}
+
+.three {
+font-size: 14px;
+line-height: 1.4em;
+margin-top: 16px;
+color: black;
+text-decoration: none;
+}
+
+.asterisks {
+text-align: center;
+margin-top: 43px;
+}
+
+
+
+
+
